@@ -36,6 +36,7 @@ img {
   flex-direction: column;
   align-items: center;
   padding: 2rem 1rem;
+  height: 100vh;
 }
 
 .header h1 {
@@ -118,25 +119,6 @@ dd {
   color: #555;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-  .company-info {
-    padding: 12px;
-  }
-
-  .company-details {
-    padding: 12px;
-  }
-
-  dt {
-    font-size: 0.95em;
-  }
-
-  dd {
-    font-size: 0.9em;
-  }
-}
-
 .footer {
   background: #000;
   color: #fff;
@@ -154,6 +136,25 @@ dd {
 .footer img {
   width: 40px;
   margin-left: 2px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .company-info {
+    padding: 12px;
+  }
+
+  .company-details {
+    padding: 12px;
+  }
+
+  dt {
+    font-size: 0.95em;
+  }
+
+  dd {
+    font-size: 0.9em;
+  }
 }
 
 @media (max-width: 800px) {
