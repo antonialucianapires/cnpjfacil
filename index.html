@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNPJ Fácil</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/cnpj_mask.js" defer></script>
+</head>
+
+<body>
+  <header class="header" role="banner">
+    <h1 id="site-title">CNPJ<strong>Fácil</strong></h1>
+    <p id="site-description">consultas rápidas, resultados confiáveis</p>
+    <div class="search-bar" role="search">
+      <input type="text" id="cnpjInput" placeholder="00.000.000/0001-91" aria-label="Digite o CNPJ" oninput="applyCNPJMask(event)">
+      <button type="submit" aria-label="Buscar">Buscar</button>
+    </div>
+  </header>
+</body>
+
+</html>
