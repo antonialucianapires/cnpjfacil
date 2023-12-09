@@ -1,5 +1,6 @@
 document.getElementById('searchButton').addEventListener('click', function() {
-  const cnpj = document.getElementById('cnpjInput').value;
+  let cnpj = document.getElementById('cnpjInput').value;
+  cnpj = cnpj.replace(/[.\-\/]/g, "");
   searchCnpj(cnpj);
 });
 
